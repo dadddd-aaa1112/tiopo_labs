@@ -1,5 +1,8 @@
 <?php
 
+//php bfs.php
+
+
 function bfs($graph, $start) {
     $visited = array();
     $queue = array($start);
