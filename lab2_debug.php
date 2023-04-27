@@ -11,7 +11,7 @@ function sum(array $x, int $N): int
     return $s;
 }
 
-function ReadInt(string $prompt): int
+function ReadInt(string $prompt)
 {
     print_r($prompt);//выводит инфо
     echo "Введите число: ";
@@ -20,7 +20,7 @@ function ReadInt(string $prompt): int
     return $x;
 }
 
-function Main(): void
+function Main()
 {
     $N = 10;
     $a = [1, 3, -5, 0, 4, 6, -1, 9, 3, 2];
